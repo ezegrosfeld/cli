@@ -4,10 +4,11 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"grosf-gh/internal/color"
-	"grosf-gh/internal/golang"
 	"net/http"
 	"os/exec"
+
+	"github.com/ezegrosfeld/cli/internal/color"
+	"github.com/ezegrosfeld/cli/internal/golang"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

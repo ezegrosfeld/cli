@@ -16,7 +16,7 @@ limitations under the License.
 package cmd
 
 import (
-	"grosf-gh/internal/color"
+	"github.com/ezegrosfeld/cli/internal/color"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

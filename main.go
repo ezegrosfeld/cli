@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "grosf-gh/cmd"
+import "github.com/ezegrosfeld/cli/cmd"
 
 func main() {
 	cmd.Execute()

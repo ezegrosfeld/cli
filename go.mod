@@ -1,4 +1,4 @@
-module grosf-gh
+module github.com/ezegrosfeld/cli
 
 go 1.16
 

@@ -2,7 +2,8 @@ package golang
 
 import (
 	"fmt"
-	"grosf-gh/internal/util"
+
+	"github.com/ezegrosfeld/cli/internal/util"
 )
 
 func createDockerfile() error {

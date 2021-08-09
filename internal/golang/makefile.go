@@ -1,6 +1,6 @@
 package golang
 
-import "grosf-gh/internal/util"
+import "github.com/ezegrosfeld/cli/internal/util"
 
 func createMakefile() error {
 	path := "./" + Name + "/Makefile"

@@ -2,7 +2,8 @@ package golang
 
 import (
 	"fmt"
-	"grosf-gh/internal/util"
+
+	"github.com/ezegrosfeld/cli/internal/util"
 )
 
 // createMain - creates the main.go file in the path
