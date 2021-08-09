@@ -45,7 +45,7 @@ jobs:
         run: |
           go test ./... -race -covermode=atomic -coverprofile=coverage.out 2>&1 | \
             perl -p -e 'if(/coverage: (\d+.\d)%/) {\
-            die "coverage too low: $1" if ($1 < 75) }'
+            die "coverage too low: $1" if ($1 < 80) }'
 
 `
 
